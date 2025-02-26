@@ -1,0 +1,40 @@
+---
+description: "Retrieves the type of the target CPU."
+title: "IDiaSymbol::get_machineType"
+ms.date: "11/04/2016"
+ms.topic: "reference"
+dev_langs:
+  - "C++"
+helpviewer_keywords:
+  - "IDiaSymbol::get_machineType method"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: mijacobs
+ms.subservice: debug-diagnostics
+---
+# IDiaSymbol::get_machineType
+
+Retrieves the type of the target CPU.
+
+## Syntax
+
+```C++
+HRESULT get_machineType ( 
+   DWORD* pRetVal
+);
+```
+
+#### Parameters
+ `pRetVal`
+
+[out] Returns a value from the [IMAGE_FILE_MACHINE_ Constants](/windows/desktop/SysInfo/image-file-machine-constants) that specifies the target CPU type.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns `S_FALSE` or an error code.
+
+> [!NOTE]
+> A return value of `S_FALSE` means the property is not available for the symbol.
+
+## See also
+- [IMAGE_FILE_MACHINE_ Constants](/windows/desktop/SysInfo/image-file-machine-constants) 
+- [IDiaSymbol](../../debugger/debug-interface-access/idiasymbol.md)
