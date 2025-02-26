@@ -1,0 +1,44 @@
+---
+title: "Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network."
+description: "This behavior occurs if one of the following conditions is true: (1) Your connection to the remote computer was broken. (2) Your user account on the remote computer is disabled. (3) Your password on the remote computer has expired."
+ms.date: "11/04/2016"
+ms.topic: "error-reference"
+f1_keywords:
+  - "vs.debug.remote.dcom_disabled"
+dev_langs:
+  - "CSharp"
+  - "VB"
+  - "FSharp"
+  - "C++"
+helpviewer_keywords:
+  - "DCOM, unable to connect error"
+author: "mikejo5000"
+ms.author: "mikejo"
+manager: mijacobs
+ms.subservice: debug-diagnostics
+---
+# Error: Unable to connect to the machine &lt;name&gt;. The machine cannot be found on the network.
+
+This behavior occurs if one of the following conditions is true:
+
+- Your connection to the remote computer was broken.
+
+- Your user account on the remote computer is disabled.
+
+- Your password on the remote computer has expired.
+
+### To resolve this behavior
+
+- Make sure that the local computer and the remote computer are in the same network. To do this, use Microsoft Windows Explorer (or File Explorer) to try to access the remote computer.
+
+     — and —
+
+- Make sure that the user account that you are using to connect to the remote computer is enabled.
+
+     — and —
+
+- Make sure that the password that you are using to connect to the remote computer is valid and has not expired.
+
+## See also
+- [Remote Debugging](../debugger/remote-debugging.md)
+- [Debugger Settings and Preparation](../debugger/debugger-settings-and-preparation.md)
