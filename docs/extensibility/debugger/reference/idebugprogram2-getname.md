@@ -1,0 +1,53 @@
+---
+description: "IDebugProgram2::GetName gets the name of the program."
+title: IDebugProgram2::GetName | Microsoft Docs
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords:
+- IDebugProgram2::GetName
+helpviewer_keywords:
+- IDebugProgram2::GetName
+ms.assetid: a54cbf13-b3e3-4c9f-8b8d-13573232dfb0
+author: maiak
+ms.author: maiak
+manager: jmartens
+ms.technology: vs-ide-debug
+ms.workload:
+- vssdk
+dev_langs:
+- CPP
+- CSharp
+---
+# IDebugProgram2::GetName
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+Gets the name of the program.
+
+## Syntax
+
+### [C#](#tab/csharp)
+```csharp
+int GetName( 
+   out string pbstrName
+);
+```
+### [C++](#tab/cpp)
+```cpp
+HRESULT GetName( 
+   BSTR* pbstrName
+);
+```
+---
+
+## Parameters
+`pbstrName`\
+[out] Returns the name of the program.
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns an error code.
+
+## Remarks
+ The name returned by this method is always a friendly, user-displayable name that describes the program.
+
+## See also
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
