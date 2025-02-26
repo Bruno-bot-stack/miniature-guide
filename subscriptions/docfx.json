@@ -1,0 +1,66 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "solutions/**/includes/**.md",
+          "faq/**/includes/**.md",
+          "**/**.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.svg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "uhfHeaderId": "MSDocsHeader-VisualStudio",
+      "feedback_system": "Standard",
+      "breadcrumb_path": "/visualstudio/subscriptions/_breadcrumb/toc.json",
+      "extendBreadcrumb": true,
+      "manager": "shve",
+      "titleSuffix": "Visual Studio Subscription",
+      "ms.service": "visual-studio-family",
+      "ms.subservice": "subscriptions",
+      "searchScope": ["VS Subscriptions"],
+      "recommendations": true
+    },
+    "fileMetadata": {
+        "ROBOTS": {
+            "solutions/**/includes/**.md": "NoIndex,NoFollow",
+            "faq/**/includes/**.md": "NoIndex,NoFollow"
+        }
+    },
+    "template": [],
+    "dest": "subscriptions",
+    "markdownEngineName": "markdig",
+    "rules": {
+        "docs-link-absolute": {
+            "exclude": [
+                "**/*.md",
+                "**/*.yml"
+            ]
+        }
+    }
+  }
+}
