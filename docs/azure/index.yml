@@ -1,0 +1,77 @@
+## YamlMime:Landing
+title: Develop applications for Azure with Visual Studio
+summary: Learn to connect apps to Azure services and deploy them to Azure.
+metadata:
+  title: Azure development with Visual Studio
+  description: Tutorials and conceptual articles about using Visual Studio to connect apps and services to Azure and develop services that run in the Azure cloud.
+  author: ghogen
+  manager: mijacobs
+  ms.subservice: azure-development
+  ms.topic: landing-page
+  ms.date: 10/21/2023
+  ms.author: ghogen
+
+landingContent:
+  - title: Develop Azure applications
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: Azure development in Visual Studio
+            url: overview.md
+      - linkListType: how-to-guide
+        links:
+          - text: Find and provision Azure resources
+            url: overview-azure-integration.md
+
+  - title: Connect to Azure services
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What are Connected Services?
+            url: overview-connected-services.md
+      - linkListType: tutorial
+        links:
+          - text: Active Directory
+            url: /azure/active-directory/develop/vs-active-directory-add-connected-service
+          - text: Azure Cache for Redis
+            url: azure-cache-for-redis-add-connected-service.md
+          - text: Azure Cosmos DB
+            url: azure-cosmosdb-add-connected-service.md
+          - text: Key Vault
+            url: vs-key-vault-add-connected-service.md
+          - text: SignalR
+            url: azure-signalr-add-connected-service.md
+          - text: SQL Database
+            url: azure-sql-database-add-connected-service.md
+          - text: Storage
+            url: vs-azure-tools-connected-services-storage.md
+      - linkListType: reference
+        links:
+          - text: Azure SDK for .NET
+            url: /dotnet/azure
+
+  - title: Deploy to Azure
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: ASP.NET Core to App Service
+            url: /azure/app-service/app-service-web-get-started-dotnet
+          - text: ASP.NET to App Service (.NET Framework)
+            url: /azure/app-service/app-service-web-get-started-dotnet
+          - text: ASP.NET web app to Azure Web Apps
+            url: /aspnet/core/tutorials/publish-to-azure-webapp-using-vs
+          - text: ASP.NET Core web app to Azure Container Apps
+            url: /azure/container-apps/deploy-visual-studio
+          - text: Azure Logic Apps
+            url: /azure/logic-apps/quickstart-create-logic-apps-with-visual-studio
+          - text: Azure Functions
+            url: /azure/azure-functions/functions-create-your-first-function-visual-studio
+
+  - title: Continuous integration/delivery (CI/CD)
+    linkLists:
+      - linkListType: how-to-guide
+        links:
+          - text: With Visual Studio and GitHub Actions
+            url: azure-deployment-using-github-actions.md
+          - text: With Azure Pipelines
+            url: /azure/devops/pipelines/get-started-yaml
