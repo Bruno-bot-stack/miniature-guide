@@ -1,0 +1,272 @@
+- name: Profiling documentation
+  href: index.yml
+- name: Overview
+  items:
+  - name: First look at profiling tools
+    href: profiling-feature-tour.md
+  - name: Run profiling tools with or without the debugger
+    href: running-profiling-tools-with-or-without-the-debugger.md
+- name: Tutorials
+  items:
+  - name: Measure application performance in Visual Studio
+    href: beginners-guide-to-performance-profiling.md
+  - name: Measure memory usage in Visual Studio
+    href: memory-usage.md
+- name: Concepts
+  items:
+  - name: Understanding performance collection methods
+    href: understanding-performance-collection-methods-perf-profiler.md
+  - name: Optimize profiler settings
+    href: optimize-profiler-settings.md
+  - name: Using multiple profiler tools simultaneously
+    href: use-multiple-profiler-tools-simultaneously.md
+- name: How-to guides
+  items:
+  - name: PerfTips
+    href: perftips.md
+  - name: .NET Async
+    href: analyze-async.md
+  - name: .NET Counters
+    href: dotnet-counters-tool.md
+  - name: Database
+    href: analyze-database.md
+  - name: Events Viewer
+    href: events-viewer.md
+  - name: CPU Usage
+    items:
+    - name: CPU Usage
+      href: cpu-usage.md
+    - name: Flame Graph 
+      href: flame-graph.md
+    - name: CPU Insights
+      items:
+      - name: CPU Insights  
+        href: cpu-insights.md
+      - name: Performance insights
+        items:
+        - name: String concatenation
+          href: perf-insights-string-concatenation.md
+        - name: Regex
+          href: perf-insights-regex.md
+  - name: File IO
+    href: use-file-io.md
+  - name: Memory usage
+    items:
+    - name: Choose a memory analysis tool
+      href: analyze-memory-usage.md
+    - name: .NET object allocation
+      items:
+      - name: Analyze memory usage for .NET objects
+        href: dotnet-alloc-tool.md
+      - name: Performance insights
+        items:
+        - name: LOH allocations
+          href: perf-insights-loh-allocations.md
+        - name: Excessive induced GCs
+          href: perf-insights-excessive-induced-gcs.md
+        - name: High LOH fragmentation
+          href: perf-insights-high-loh-fragmentation.md
+    - name: Analyze memory usage without the debugger
+      href: memory-usage-without-debugging2.md
+    - name: Custom native ETW heap events
+      href: custom-native-etw-heap-events.md
+  - name: Instrumentation
+    items:
+    - name: Instrumentation
+      href: instrumentation-overview.md
+    - name: Analyze instrumentation data
+      href: instrumentation.md
+  - name: Measure performance from the command-line
+    items:
+    - name: Measure performance from the command-line
+      href: profile-apps-from-command-line.md
+    - name: Collect detailed timing data
+      href: collecting-detailed-timing-data-for-a-stand-alone-application.md
+    - name: Instrument a .NET Framework component and collect timing data
+      href: instrument-dotnet-framework-component-and-collect-timing-data.md
+    - name: Instrument a native component and collect timing data
+      href: instrument-native-component-and-collect-timing-data.md
+    - name: Reference
+      items:
+      - name: VSInstr
+        href: vsinstr.md
+      - name: VSPerfCmd
+        href: vsperfcmd.md
+  - name: Analyze GPU usage
+    href: gpu-usage.md
+  - name: Analyze Resource Consumption
+    href: application-timeline.md
+  - name: Performance Explorer
+    items:
+    - name: Overviews (performance tools)
+    - name: Get started
+    - name: Configure
+      items:
+      - name: Collect performance statistics
+      - name: Collect detailed timing data
+      - name: Additional performance data
+    - name: Control data collection
+    - name: Performance tools data
+      items:
+      - name: Performance rules for analysis
+        items:
+        - name: Performance rules reference
+          items:
+          - name: .NET Framework usage performance rules
+          - name: Memory and Paging performance rules
+          - name: Profiling Tools usage rules
+          - name: Resource Monitoring performance rules
+      - name: Performance Report Views
+        items:
+        - name: Common Data Views
+        - name: Profiler Sampling Method Data Views
+        - name: Instrumentation Method Data Views
+        - name: .NET memory data Views
+        - name: Resource Contention Data Views
+        - name: Tier Interaction Views
+      - name: Customize Views
+    - name: Compare performance data files
+    - name: Profiling tools in the command line
+      items:
+      - name: Stand-alone applications
+        items:
+        - name: Collect application statistics for stand-alone applications
+        - name: Collecting detailed timing data for a stand-alone application
+        - name: Collecting concurrency data for stand-alone applications
+        - name: Collecting .NET Framework memory data for stand-alone applications
+      - name: ASP.NET Web applications
+        items:
+        - name: Collecting application statistics for ASP.NET Web applications using the profiler sampling method
+        - name: Collecting detailed timing data for an ASP.NET Web application using the profiler instrumentation method
+        - name: Collecting concurrency data for an ASP.NET Web application
+        - name: Collecting memory data from an ASP.NET Web application
+      - name: Command-line profiling of services
+        items:
+        - name: Collecting application statistics for services by using the profiler sampling method
+        - name: Collecting detailed timing data for services by using the Instrumentation method
+        - name: Collecting concurrency data for a service
+        - name: Collecting memory data from .NET Framework services
+      - name: Creating profiler reports from the command line
+      - name: Command-line profiling tools reference
+        items:
+        - name: VSPerfCmd
+    - name: Profiling Tools APIs
+      items:
+      - name: Visual Studio profiler API Reference (Native)
+  - name: Concurrency Visualizer
+    items:
+    - name: Overview of Concurrency Visualizer
+      href: concurrency-visualizer.md
+    - name: Common patterns for poorly-behaved multithreaded applications
+      href: common-patterns-for-poorly-behaved-multithreaded-applications.md
+    - name: Utilization Navigator
+      href: utilization-navigator.md
+    - name: Utilization View
+      href: utilization-view.md
+    - name: Threads View (Parallel Performance)
+      items:
+      - name: Threads View (Parallel Performance)
+        href: threads-view-parallel-performance.md
+      - name: Threads View reports
+        href: threads-view-reports.md
+      - name: Threads View timeline reports
+        href: threads-view-timeline-reports.md
+      - name: Threads View Messages
+        items:
+        - name: No Disk Activity to Show (Threads View)
+          href: no-disk-activity-to-show-threads-view.md
+        - name: No Thread Activity to Show (Threads View)
+          href: no-thread-activity-to-show-threads-view.md
+        - name: Multiple Categories Are Present
+          href: multiple-categories-are-present.md
+    - name: Cores View
+      items:
+      - name: Cores View
+        href: cores-view.md
+    - name: Advanced Settings Dialog Box (Concurrency Visualizer)
+      href: advanced-settings-dialog-box-concurrency-visualizer.md
+    - name: Concurrency Visualizer Markers
+      items:
+      - name: Concurrency Visualizer Markers
+        href: concurrency-visualizer-markers.md
+      - name: Visualizing EventSource Events as Markers
+        href: visualizing-eventsource-events-as-markers.md
+    - name: Concurrency Visualizer SDK
+      items:
+      - name: Overview of Concurrency Visualizer SDK
+        href: concurrency-visualizer-sdk.md
+      - name: Use the Concurrency Visualizer Markers SDK
+        href: how-to-use-the-concurrency-visualizer-markers-sdk.md
+      - name: C++ Library Reference
+        items:
+        - name: Overview of C++ Library Reference
+          href: cpp-library-reference.md
+        - name: Concurrency Namespace (Concurrency Visualizer)
+          items:
+          - name: Concurrency Namespace (Concurrency Visualizer)
+            href: concurrency-namespace-concurrency-visualizer.md
+          - name: Diagnostic Namespace
+            items:
+            - name: Diagnostic Namespace
+              href: diagnostic-namespace.md
+            - name: span Class
+              items:
+              - name: span Class
+                href: span-class.md
+              - name: span::~span Destructor
+                href: span-tilde-span-destructor.md
+              - name: span::span Constructor
+                href: span-span-constructor.md
+            - name: marker_series Class
+              items:
+              - name: marker_series Class
+                href: marker-series-class.md
+              - name: marker_series::~marker_series Destructor
+                href: marker-series-tilde-marker-series-destructor.md
+              - name: marker_series::is_enabled Method
+                href: marker-series-is-enabled-method.md
+              - name: marker_series::marker_series Constructor
+                href: marker-series-marker-series-constructor.md
+              - name: marker_series::write_alert Method
+                href: marker-series-write-alert-method.md
+              - name: marker_series::write_flag Method
+                href: marker-series-write-flag-method.md
+              - name: marker_series::write_message Method
+                href: marker-series-write-message-method.md
+            - name: marker_importance Enumeration
+              href: marker-importance-enumeration.md
+      - name: C Library Reference
+        items:
+        - name: Overview of C Library Reference
+          href: c-library-reference.md
+        - name: CvCreateDefaultMarkerSeriesOfDefaultProvider Function
+          href: cvcreatedefaultmarkerseriesofdefaultprovider-function.md
+        - name: CvCreateMarkerSeries Function
+          href: cvcreatemarkerseries-function.md
+        - name: CvCreateMarkerSeriesWithCodePageA Function
+          href: cvcreatemarkerserieswithcodepagea-function.md
+        - name: CvEnterSpan Function
+          href: cventerspan-function.md
+        - name: CvInitProvider Function
+          href: cvinitprovider-function.md
+        - name: CvIsEnabled Function
+          href: cvisenabled-function.md
+        - name: CvLeaveSpan Function
+          href: cvleavespan-function.md
+        - name: CvReleaseMarkerSeries Function
+          href: cvreleasemarkerseries-function.md
+        - name: CvReleaseProvider Function
+          href: cvreleaseprovider-function.md
+        - name: CvWriteAlert Function
+          href: cvwritealert-function.md
+        - name: CvWriteFlag Function
+          href: cvwriteflag-function.md
+        - name: CvWriteMessage Function
+          href: cvwritemessage-function.md
+    - name: Concurrency Visualizer Command-Line Utility (CVCollectionCmd)
+      href: concurrency-visualizer-command-line-utility-cvcollectioncmd.md
+- name: Reference
+  items:
+  - name: Troubleshoot possible profiler errors
+    href: troubleshoot-profiler-errors.md
+- name: Resources
