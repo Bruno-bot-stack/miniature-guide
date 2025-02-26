@@ -1,0 +1,44 @@
+---
+description: "Detaches a debug engine from the program."
+title: IDebugProgram2::Detach
+ms.date: 11/04/2016
+ms.topic: reference
+f1_keywords:
+- IDebugProgram2::Detach
+helpviewer_keywords:
+- IDebugProgram2::Detach
+author: maiak
+ms.author: maiak
+manager: jmartens
+ms.technology: vs-ide-debug
+dev_langs:
+- CPP
+- CSharp
+---
+# IDebugProgram2::Detach
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+Detaches a debug engine from the program.
+
+## Syntax
+
+### [C#](#tab/csharp)
+```csharp
+int Detach();
+```
+### [C++](#tab/cpp)
+```cpp
+HRESULT Detach( 
+   void 
+);
+```
+---
+
+## Return Value
+ If successful, returns `S_OK`; otherwise, returns an error code.
+
+## Remarks
+ A detached program continues running, but it is no longer part of the debug session. No more program debug events are sent once the debug engine is detached.
+
+## See also
+- [IDebugProgram2](../../../extensibility/debugger/reference/idebugprogram2.md)
