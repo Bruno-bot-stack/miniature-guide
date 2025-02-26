@@ -1,0 +1,249 @@
+items:
+- name: Create SharePoint Solutions
+  items:
+  - name: Create SharePoint Solutions
+    href: create-sharepoint-solutions.md
+  - name: Getting Started in SharePoint Development
+    href: getting-started-sharepoint-development-in-visual-studio.md
+  - name: Developing SharePoint Solutions
+    items:
+    - name: Developing SharePoint Solutions
+      href: developing-sharepoint-solutions.md
+    - name: SharePoint Project and Project Item Templates
+      href: sharepoint-project-and-project-item-templates.md
+    - name: Add Items to a SharePoint Project
+      href: how-to-add-items-to-a-sharepoint-project.md
+    - name: Creating Site Columns, Content Types, and Lists for SharePoint
+      items:
+      - name: Creating Site Columns, Content Types, and Lists for SharePoint
+        href: creating-site-columns-content-types-and-lists-for-sharepoint.md
+      - name: 'Walkthrough: Create a Site Column, Content Type, and List for SharePoint'
+        href: walkthrough-create-a-site-column-content-type-and-list-for-sharepoint.md
+    - name: Create an Event Receiver
+      href: how-to-create-an-event-receiver.md
+    - name: Create an Event Receiver for a Specific List Instance
+      href: how-to-create-an-event-receiver-for-a-specific-list-instance.md
+    - name: Creating SharePoint Workflow Solutions
+      items:
+      - name: Creating SharePoint Workflow Solutions
+        href: creating-sharepoint-workflow-solutions.md
+      - name: Form Support in Workflows
+        href: form-support-in-workflows.md
+      - name: 'Walkthrough: Creating and Debugging a SharePoint Workflow Solution'
+        href: walkthrough-creating-and-debugging-a-sharepoint-workflow-solution.md
+      - name: 'Walkthrough: Creating a Workflow with Association and Initiation Forms'
+        href: walkthrough-creating-a-workflow-with-association-and-initiation-forms.md
+      - name: 'Walkthrough: Add an Application Page to a Workflow'
+        href: walkthrough-add-an-application-page-to-a-workflow.md
+      - name: 'Walkthrough: Create a Custom Site Workflow Activity'
+        href: walkthrough-create-a-custom-site-workflow-activity.md
+      - name: 'Walkthrough: Import a SharePoint Designer Reusable Workflow into Visual Studio'
+        href: walkthrough-import-a-sharepoint-designer-reusable-workflow-into-visual-studio.md
+    - name: Creating Pages for SharePoint
+      items:
+      - name: Creating Pages for SharePoint
+        href: creating-pages-for-sharepoint.md
+      - name: Creating Application Pages for SharePoint
+        href: creating-application-pages-for-sharepoint.md
+      - name: Create an Application Page
+        href: how-to-create-an-application-page.md
+      - name: 'Walkthrough: Creating a SharePoint Application Page'
+        href: walkthrough-creating-a-sharepoint-application-page.md
+    - name: Creating Web Parts for SharePoint
+      items:
+      - name: Creating Web Parts for SharePoint
+        href: creating-web-parts-for-sharepoint.md
+      - name: Create a SharePoint Web Part
+        href: how-to-create-a-sharepoint-web-part.md
+      - name: Create a SharePoint Web Part by Using a Designer
+        href: how-to-create-a-sharepoint-web-part-by-using-a-designer.md
+      - name: 'Walkthrough: Creating a Web Part for SharePoint'
+        href: walkthrough-creating-a-web-part-for-sharepoint.md
+      - name: 'Walkthrough: Creating a Web Part for SharePoint by Using a Designer'
+        href: walkthrough-creating-a-web-part-for-sharepoint-by-using-a-designer.md
+      - name: 'Walkthrough: Creating a Silverlight Web Part that Displays OData for SharePoint'
+        href: walkthrough-creating-a-silverlight-web-part-that-displays-odata-for-sharepoint.md
+    - name: Creating Reusable Controls for Web Parts or Application Pages
+      items:
+      - name: Creating Reusable Controls for Web Parts or Application Pages
+        href: creating-reusable-controls-for-web-parts-or-application-pages.md
+      - name: Create a User Control for a SharePoint Application Page or Web Part
+        href: how-to-create-a-user-control-for-a-sharepoint-application-page-or-web-part.md
+    - name: Integrating Business Data into SharePoint
+      items:
+      - name: Integrating Business Data into SharePoint
+        href: integrating-business-data-into-sharepoint.md
+      - name: Creating a Business Data Connectivity Model
+        items:
+        - name: Creating a Business Data Connectivity Model
+          href: creating-a-business-data-connectivity-model.md
+        - name: Create a BDC Model
+          href: how-to-create-a-bdc-model.md
+        - name: Add an Existing BDC Model File to a SharePoint Project
+          href: how-to-add-an-existing-bdc-model-file-to-a-sharepoint-project.md
+        - name: Use a Resource File to Specify Localized Names, Properties, and Permissions
+          href: how-to-use-a-resource-file-to-specify-localized-names-properties-and-permissions.md
+        - name: Include a Custom Assembly in a BDC Feature
+          href: how-to-include-a-custom-assembly-in-a-bdc-feature.md
+      - name: Designing a Business Data Connectivity Model
+        items:
+        - name: Designing a Business Data Connectivity Model
+          href: designing-a-business-data-connectivity-model.md
+        - name: BDC Model Design Tools Overview
+          href: bdc-model-design-tools-overview.md
+        - name: Add an Entity to a Model
+          href: how-to-add-an-entity-to-a-model.md
+        - name: Add a Finder Method
+          href: how-to-add-a-finder-method.md
+        - name: Add a Specific Finder Method
+          href: how-to-add-a-specific-finder-method.md
+        - name: Add a Creator Method
+          href: how-to-add-a-creator-method.md
+        - name: Add a Deleter Method
+          href: how-to-add-a-deleter-method.md
+        - name: Add an Updater Method
+          href: how-to-add-an-updater-method.md
+        - name: Add a Parameter to a Method
+          href: how-to-add-a-parameter-to-a-method.md
+        - name: Define the Type Descriptor of a Parameter
+          href: how-to-define-the-type-descriptor-of-a-parameter.md
+        - name: Define a Method Instance
+          href: how-to-define-a-method-instance.md
+        - name: Add a Custom Property
+          href: how-to-add-a-custom-property.md
+        - name: Add a Filter Descriptor to a Finder Method
+          href: how-to-add-a-filter-descriptor-to-a-finder-method.md
+        - name: Creating an Association Between Entities
+          href: creating-an-association-between-entities.md
+        - name: Create an Association Between Entities
+          href: how-to-create-an-association-between-entities.md
+        - name: 'Walkthrough: Creating an External List in SharePoint by Using Business Data'
+          href: walkthrough-creating-an-external-list-in-sharepoint-by-using-business-data.md
+    - name: Creating Site Definitions for SharePoint
+      items:
+      - name: Creating Site Definitions for SharePoint
+        href: creating-site-definitions-for-sharepoint.md
+      - name: 'Walkthrough: Create a Basic Site Definition Project'
+        href: walkthrough-create-a-basic-site-definition-project.md
+    - name: Importing Items from an Existing SharePoint Site
+      items:
+      - name: Importing Items from an Existing SharePoint Site
+        href: importing-items-from-an-existing-sharepoint-site.md
+      - name: 'Walkthrough: Import Items from an Existing SharePoint Site'
+        href: walkthrough-import-items-from-an-existing-sharepoint-site.md
+      - name: Guidelines for Importing Reusable Workflows
+        href: guidelines-for-importing-reusable-workflows.md
+      - name: Import a Master Page or Theme
+        href: how-to-import-a-master-page-or-theme.md
+      - name: 'Walkthrough: Import a Custom Master Page and Site Page with an Image'
+        href: walkthrough-import-a-custom-master-page-and-site-page-with-an-image.md
+    - name: Using Modules to Include Files in the Solution
+      items:
+      - name: Using Modules to Include Files in the Solution
+        href: using-modules-to-include-files-in-the-solution.md
+      - name: Include Files by Using a Module
+        href: how-to-include-files-by-using-a-module.md
+    - name: Browsing SharePoint Connections Using Server Explorer
+      items:
+      - name: Browsing SharePoint Connections Using Server Explorer
+        href: browsing-sharepoint-connections-using-server-explorer.md
+      - name: Add or Remove SharePoint Connections
+        href: how-to-add-or-remove-sharepoint-connections.md
+    - name: Providing Packaging and Deployment Information in Project Items
+      items:
+      - name: Providing Packaging and Deployment Information in Project Items
+        href: providing-packaging-and-deployment-information-in-project-items.md
+      - name: Mark Controls as Safe Controls
+        href: how-to-mark-controls-as-safe-controls.md
+      - name: Add a Project Output Reference
+        href: how-to-add-a-project-output-reference.md
+    - name: Add and Remove Mapped Folders
+      href: how-to-add-and-remove-mapped-folders.md
+    - name: Sandboxed Solution Considerations
+      href: sandboxed-solution-considerations.md
+    - name: Security for SharePoint Solutions
+      href: security-for-sharepoint-solutions.md
+    - name: URL Picker Dialog Box
+      href: url-picker-dialog-box-sharepoint-development-in-visual-studio.md
+    - name: Localizing SharePoint Solutions
+      href: localizing-sharepoint-solutions.md
+  - name: Building and Debugging SharePoint Solutions
+    items:
+    - name: Building and Debugging SharePoint Solutions
+      href: building-and-debugging-sharepoint-solutions.md
+    - name: Build SharePoint Solutions
+      href: how-to-build-sharepoint-solutions.md
+    - name: Debugging SharePoint Solutions
+      href: debugging-sharepoint-solutions.md
+    - name: Verifying and Debugging SharePoint Code
+      items:
+      - name: Verifying and Debugging SharePoint Code
+        href: verifying-and-debugging-sharepoint-code.md
+      - name: 'Walkthrough: Debugging a SharePoint Application by Using IntelliTrace'
+        href: walkthrough-debugging-a-sharepoint-application-by-using-intellitrace.md
+    - name: Profiling the Performance of SharePoint Applications
+      items:
+      - name: Profiling the Performance of SharePoint Applications
+        href: profiling-the-performance-of-sharepoint-applications.md
+      - name: 'Walkthrough: Profiling a SharePoint Application'
+        href: walkthrough-profiling-a-sharepoint-application.md
+    - name: Differences Between Sandboxed and Farm Solutions
+      href: differences-between-sandboxed-and-farm-solutions.md
+    - name: MSBuild Properties Supported by SharePoint
+      href: msbuild-properties-supported-by-sharepoint.md
+    - name: Troubleshooting SharePoint Solutions
+      href: troubleshooting-sharepoint-solutions.md
+  - name: Packaging and Deploying SharePoint Solutions
+    items:
+    - name: Packaging and Deploying SharePoint Solutions
+      href: packaging-and-deploying-sharepoint-solutions.md
+    - name: Creating SharePoint Features
+      items:
+      - name: Creating SharePoint Features
+        href: creating-sharepoint-features.md
+      - name: Add a Feature to SharePoint Solutions
+        href: how-to-add-a-feature-to-sharepoint-solutions.md
+      - name: Customize a SharePoint Feature
+        href: how-to-customize-a-sharepoint-feature.md
+      - name: Add and Remove Items to SharePoint Features
+        href: how-to-add-and-remove-items-to-sharepoint-features.md
+      - name: Add and Remove Feature Dependencies
+        href: how-to-add-and-remove-feature-dependencies.md
+      - name: 'Walkthrough: Add Feature Event Receivers'
+        href: walkthrough-add-feature-event-receivers.md
+    - name: Creating SharePoint Solution Packages
+      items:
+      - name: Creating SharePoint Solution Packages
+        href: creating-sharepoint-solution-packages.md
+      - name: Customize a SharePoint Solution Package
+        href: how-to-customize-a-sharepoint-solution-package.md
+      - name: Add and Remove Features and Items to a Package by Using the Package Designer
+        href: how-to-add-and-remove-features-and-items-to-a-package-by-using-the-package-designer.md
+      - name: Add and Remove Features and Items to a Package by Using the Packaging Explorer
+        href: how-to-add-and-remove-features-and-items-to-a-package-by-using-the-packaging-explorer.md
+      - name: Add and Remove Additional Assemblies
+        href: how-to-add-and-remove-additional-assemblies.md
+      - name: Create a SharePoint Solution Package by Using MSBuild Tasks
+        href: how-to-create-a-sharepoint-solution-package-by-using-msbuild-tasks.md
+      - name: Customize a SharePoint Solution Package by Using MSBuild Targets
+        href: how-to-customize-a-sharepoint-solution-package-by-using-msbuild-targets.md
+    - name: Deploying, Publishing, and Upgrading SharePoint Solution Packages
+      items:
+      - name: Deploying, Publishing, and Upgrading SharePoint Solution Packages
+        href: deploying-publishing-and-upgrading-sharepoint-solution-packages.md
+      - name: Deploy and Publish a SharePoint Solution to a Local SharePoint Site
+        href: how-to-deploy-and-publish-a-sharepoint-solution-to-a-local-sharepoint-site.md
+      - name: Deploy, Publish, and Upgrade SharePoint Solutions on a Remote Server
+        href: how-to-deploy-publish-and-upgrade-sharepoint-solutions-on-a-remote-server.md
+      - name: Set SharePoint Deployment Commands
+        href: how-to-set-sharepoint-deployment-commands.md
+      - name: Edit a SharePoint Deployment Configuration
+        href: how-to-edit-a-sharepoint-deployment-configuration.md
+      - name: 'Walkthrough: Deploying a Project Task List Definition'
+        href: walkthrough-deploying-a-project-task-list-definition.md
+    - name: Replaceable Parameters
+      href: replaceable-parameters.md
+    - name: Troubleshooting SharePoint Packaging and Deployment
+      href: troubleshooting-sharepoint-packaging-and-deployment.md
+    - name: Merging XML in Feature and Package Manifests
+      href: merging-xml-in-feature-and-package-manifests.md
