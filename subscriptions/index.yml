@@ -1,0 +1,93 @@
+### YamlMime:Landing
+
+title: Visual Studio Subscriptions documentation
+summary: "Visual Studio subscriptions benefits include access to developer tools, cloud services and software, training, and support for your development and testing needs."
+metadata:
+  title: Visual Studio Subscriptions documentation
+  description: Explore documentation about Visual Studio subscriptions to create applications on Windows, iOS, Android, and Linux with developer tools, cloud services, and more.
+  ms.topic: landing-page
+  author: evanwindom
+  ms.author: amast
+  manager: shve
+  ms.date: 01/25/2024
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | whats-new
+
+
+landingContent: 
+
+  
+  # Card
+  - title: Get Started with Subscriptions
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: "What's a subscription?"
+            url: what-are-subscriptions.md
+          - text: Get started with your subscription
+            url: ~/new-subscriber.md
+          - text: "Compare options & pricing"
+            url: https://visualstudio.microsoft.com/vs/pricing
+  
+
+
+  # Card
+  - title: Use the Subscriber portal
+    linkLists:            
+      - linkListType: get-started
+        links:
+          - text: Tour the subscriber portal
+            url: ~/using-the-subscriber-portal.md
+      - linkListType: reference
+        links:
+          - text: Visit Subscriber portal
+            url: https://my.visualstudio.com/
+          - text: Contact your subscription admin 
+            url:  ~/contact-my-admin.md
+
+  # Card
+  - title: Use the Administrator portal
+    linkLists:            
+      - linkListType: get-started
+        links:
+          - text: Tour the administrator portal
+            url: ~/using-admin-portal.md
+      - linkListType: reference
+        links:
+          - text: Visit Administrator portal
+            url: https://manage.visualstudio.com/            
+          - text: Support for subscribers
+            url:  https://visualstudio.microsoft.com/support/support-overview-vs
+
+
+  # Card
+  - title: Benefits for subscribers
+    linkLists:            
+      - linkListType: get-started
+        links:
+          - text: Use your Azure credits
+            url: /azure/devtest/offer/quickstart-individual-credit
+          - text: Get included software downloads
+            url: ~/software-download-list.md
+          - text: Find more benefits
+            url: ~/about-benefits.md        
+      - linkListType: overview
+        links:
+          - text: Visual Studio benefits
+            url: ~/vs-ide-benefit.md
+          - text: Azure DevOps Server and CAL
+            url: ~/vs-vsts.md
+          - text: Microsoft 365 Developer Subscription
+            url: ~/vs-office-dev.md
+          - text: Windows Developer Account
+            url: ~/vs-windows-dev.md
+          - text: LinkedIn Premium
+            url: ~/vs-linkedin-learning.md
+          - text: Pluralsight
+            url: ~/vs-pluralsight.md
+          - text: Data Camp
+            url: ~/vs-datacamp.md
+          - text: Microsoft Professional Technical Support incidents
+            url: ~/vs-tech-support.md
+          - text: Azure Community
+            url: ~/vs-azure-community.md
