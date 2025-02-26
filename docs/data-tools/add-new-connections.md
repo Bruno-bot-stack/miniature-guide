@@ -1,0 +1,143 @@
+---
+title: Add new connections
+description: Add a connection in Visual Studio to a DB or service, and explore DB contents and schemas, using Server Explorer or SQL Server Object Explorer.
+ms.custom: SEO-VS-2020
+ms.date: 03/21/2022
+ms.topic: how-to
+author: ghogen
+ms.author: ghogen
+manager: jmartens
+ms.technology: vs-data-tools
+ms.workload:
+- data-storage
+---
+# Add new connections
+
+ [!INCLUDE [Visual Studio](~/includes/applies-to-version/vs-windows-only.md)]
+
+The steps in this article show how to connect to a database in the Visual Studio IDE. You can use these steps to work directly with your data, such as execute queries, edit data, create and edit tables and other schema properties, edit stored procedures and functions, triggers, and so on. These functions are independent of the programming language or .NET version you are using.
+
+:::moniker range="<=vs-2019"
+You can test your connection to a database or service, and explore database contents and schemas, by using **Server Explorer**, **Cloud Explorer**, or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:
+
+- Server Explorer
+
+   Installed by default in Visual Studio. Can be used to test connections and view SQL Server databases, any other databases that have an ADO.NET provider installed, and some Azure services. Also shows low-level objects such as system performance counters, event logs, and message queues. If a data source has no ADO.NET provider, it won't show up here, but you can still use it from Visual Studio by connecting programmatically.
+
+- Cloud Explorer
+
+   Install this window manually as a Visual Studio extension from [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.CloudExplorerForVS). Provides specialized functionality for exploring and connecting to Azure services.
+
+- SQL Server Object Explorer
+
+   Installed with SQL Server Data Tools and visible under the **View** menu. If you don't see it there, go to **Programs and Features** in Control Panel, find Visual Studio, and then select **Change** to re-run the installer after selecting the check box for SQL Server Data Tools. Use **SQL Server Object Explorer** to view SQL databases (if they have an ADO.NET provider), create new databases, modify schemas, create stored procedures, retrieve connection strings, view the data, and more. SQL databases that have no ADO.NET provider installed won't show up here, but you can still connect to them programmatically.
+::: moniker-end
+:::moniker range=">=vs-2022"
+You can test your connection to a database or service, and explore database contents and schemas, by using **Server Explorer** or **SQL Server Object Explorer**. The functionality of these windows overlaps to some extent. The basic differences are:
+
+- Server Explorer
+
+   Installed by default in Visual Studio. Can be used to test connections and view SQL Server databases, any other databases that have an ADO.NET provider installed, and some Azure services. Also shows low-level objects such as system performance counters, event logs, and message queues. If a data source has no ADO.NET provider, it won't show up here, but you can still use it from Visual Studio by connecting programmatically.
+
+- SQL Server Object Explorer
+
+   Installed with SQL Server Data Tools and visible under the **View** menu. If you don't see it there, go to **Programs and Features** in Control Panel, find Visual Studio, and then select **Change** to re-run the installer after selecting the check box for SQL Server Data Tools. Use **SQL Server Object Explorer** to view SQL databases (if they have an ADO.NET provider), create new databases, modify schemas, create stored procedures, retrieve connection strings, view the data, and more. SQL databases that have no ADO.NET provider installed won't show up here, but you can still connect to them programmatically.
+::: moniker-end
+
+## Add a connection in Server Explorer
+
+To create a connection to the database, click the **Add Connection** icon in **Server Explorer**, or right-click in **Server Explorer** on the **Data Connections** node and select **Add Connection**. From here, you can also connect to a database on another server, a SharePoint service, or an Azure service.
+
+:::moniker range="<=vs-2019"
+![Screenshot showing Server Explorer New Connection icon.](../data-tools/media/server-explorer-new-connection-icon.png)
+:::moniker-end
+:::moniker range=">=vs-2022"
+![Screenshot showing Server Explorer Connect to Database icon.](./media/vs-2022/connect-to-database-server-explorer.png)
+:::moniker-end
+
+This brings up the **Add Connection** dialog box. Here, we have entered the name of the SQL Server LocalDB instance, `(localdb)\MSSqlLocalDB`, which is usually installed with Visual Studio.
+
+:::moniker range="<=vs-2019"
+![Screenshot of Add New Connection dialog box.](../data-tools/media/add-new-connection-dialog.png)
+:::moniker-end
+:::moniker range=">=vs-2022"
+![Screenshot of Add New Connection dialog box.](./media/vs-2022/add-new-connection.png)
+:::moniker-end
+
+If you don't have access to another database, and you don't see LocalDB installed, you can install LocalDB through the Visual Studio Installer, as part of the **Data Storage and Processing** workload, the **ASP.NET and web development** workload, or as an individual component. See [Modify Visual Studio](../install/modify-visual-studio.md).
+
+## Change the provider
+
+If the data source is not what you want, click the **Change** button to choose a new data source and/or a new ADO.NET data provider. The new provider might ask for your credentials, depending on how you configured it.
+
+::: moniker range=">=vs-2022"
+> [!NOTE]
+> If you're using Visual Studio 2022 to connect to OLEDB or ODBC data providers, you will need to be aware that Visual Studio 2022 is now a 64-bit process.
+>
+> This means some of the data tools in Visual Studio will not be able to connect to OLEDB or ODBC databases using 32-bit data providers. This includes the Microsoft Access 32-bit OLEDB data provider as well as other third-party 32-bit providers.
+>
+>If you need to maintain 32-bit applications that connect to OLEDB or ODBC, you will still be able to build and run the application with Visual Studio 2022. However, if you need to use any of the Visual Studio Data Tools such as Server Explorer, Data Source Wizard, or the DataSet Designer, you will need to use an earlier version of Visual Studio that is still a 32-bit process. The last version of Visual Studio that was a 32-bit process was Visual Studio 2019.
+>
+>If you plan on converting the project to be a 64-bit process you will need to update the OLEDB and ODBC data connections to use 64-bit data providers.
+>
+>If your application uses Microsoft Access databases, and can convert the project to 64-bit, it’s recommended that you use the 64-bit Microsoft Access Database Engine, also called Access Connectivity Engine (ACE). Please see [OLE DB Provider for Jet and ODBC driver are 32-bit versions only](/office/troubleshoot/access/jet-odbc-driver-available-32-bit-version) for more information.
+>
+>If you're using a third-party data provider, we recommend connecting with your vendor to see if they offer a 64-bit provider before converting the project to 64-bit.
+
+::: moniker-end
+
+:::moniker range="<=vs-2019"
+![Screenshot showing how to change the ADO.NET data provider.](../data-tools/media/change-ado-net-data-provider.png)
+:::moniker-end
+:::moniker range=">=vs-2022"
+![Screenshot showing how to change the ADO.NET data provider.](../data-tools/media/vs-2022/change-data-source-2.png)
+:::moniker-end
+
+## Test the connection
+
+After you have chosen the data source, click **Test Connection**. If it doesn't succeed, you will need to troubleshoot based on the vendor's documentation.
+
+:::moniker range="<=vs-2019"
+![Screenshot showing Test Connection succeeded message box.](../data-tools/media/test-connection.png)
+:::moniker-end
+:::moniker range=">=vs-2022"
+![Screenshot showing Test Connection succeeded message box.](./media/vs-2022/test-connection-succeeded.png)
+:::moniker-end
+
+If the test succeeds, you are ready to create a *data source*, which is a Visual Studio term that really means a *data model* that is based on the underlying database or service.
+
+:::moniker range=">=vs-2022"
+
+## Connect using SQL Server Object Explorer
+
+The experience might be easier if you use **SQL Server Object Explorer**, which gives you a dialog that provides more help in finding available databases locally, on the local network, and in your Azure subscriptions, and provides a history of recently used choices.
+
+To access the connect dialog from **SQL Server Object Explorer**, click the toolbar button **Add SQL Server**.
+
+![Screenshot of SQL Server Object Explorer Add SQL Server button](./media/vs-2022/sql-server-object-explorer-add-sql-server-button.png)
+
+The connect dialog comes up. Choose your local, network, or Azure SQL server, select a database, provide credentials, and choose **Connect**.
+
+![Screenshot of SQL Server Object Explorer Connect dialog.](./media/vs-2022/sql-server-object-explorer-connect-dialog.png)
+
+If you need to set other settings in your connection string, you can use the **Advanced** link, which brings up all the settings.
+
+![Screenshot showing Advanced settings.](./media/vs-2022/sql-connect-advanced-options.png)
+
+After you are done setting up the connection, the server and database are shown in the SQL Server Object Explorer window.
+
+![Screenshot showing Connected successfully message.](./media/vs-2022/successfully-added-connection.png)
+
+From there, you can browse the database, write and execute queries, edit data, stored procedures and functions, and perform other actions directly in Visual Studio.
+
+:::moniker-end
+
+## Next steps
+
+If you're using the .NET Framework (not .NET Core or .NET 5 or later), and Windows Forms or WPF, you can the **Data Sources** window, for example, to set up data binding for controls in Windows Forms and WPF Applications, see [Add new data sources](add-new-data-sources.md). These tools are designed to enable you to rapidly create Windows applications that need to allow users to enter, display, and manipulate data.
+
+If you're using .NET 5 or later, .NET Core or ASP.NET Core, you can connect your app to the database using [Connected Services](../azure/overview-connected-services.md). Using Connected Services, you can easily use a local development database, hosted by SQL LocalDB, SQL Server running in a container, or an on-premises instance of SQL Server, and then  transition to Azure SQL Database when you're ready to deploy to the cloud. For .NET 5 or later, .NET Core and ASP.NET Core, you should consider using [Entity Framework Core](/ef/core) as your database framework.
+
+## See also
+
+- [Visual Studio data tools for .NET](../data-tools/visual-studio-data-tools-for-dotnet.md)
