@@ -1,0 +1,4 @@
+- name: Visual Studio Graphics Diagnostics
+  href: visual-studio-graphics-diagnostics.md
+- name: DirectX12 Support in Visual Studio
+  href: visual-studio-graphics-diagnostics-directx-12.md
