@@ -1,0 +1,68 @@
+- name: Visual Studio
+  tocHref: /visualstudio/
+  topicHref: /visualstudio/windows/index
+  items:
+  - name: Code Analysis
+    tocHref: /visualstudio/code-quality/
+    topicHref: /visualstudio/code-quality/index
+  - name: Cross Platform
+    tocHref: /visualstudio/cross-platform/
+    topicHref: /visualstudio/cross-platform/cross-platform-mobile-development-in-visual-studio
+  - name: Data Tools
+    tocHref: /visualstudio/data-tools/
+    topicHref: /visualstudio/data-tools/index
+  - name: Debugging
+    tocHref: /visualstudio/debugger/
+    topicHref: /visualstudio/debugger/index
+    items:
+    - name: Debug Interface Access SDK
+      tocHref: /visualstudio/debugger/debug-interface-access/
+      topicHref: /visualstudio/debugger/debug-interface-access/debug-interface-access-sdk
+  - name: Deployment
+    tocHref: /visualstudio/deployment/
+    topicHref: /visualstudio/deployment/index
+  - name: Modeling Architecture
+    tocHref: /visualstudio/modeling/
+    topicHref: /visualstudio/modeling/analyze-and-model-your-architecture
+  - name: Profiling
+    tocHref: /visualstudio/profiling/
+    topicHref: /visualstudio/profiling/index
+  - name: Testing
+    tocHref: /visualstudio/test/
+    topicHref: /visualstudio/test/index
+  - name: Workflow Designer
+    tocHref: /visualstudio/workflow-designer/
+    topicHref: /visualstudio/workflow-designer/developing-applications-with-the-workflow-designer
+  - name: XAML Tools
+    tocHref: /visualstudio/xaml-tools/
+    topicHref: /visualstudio/xaml-tools/
+  - name: XML Tools
+    tocHref: /visualstudio/xml-tools/
+    topicHref: /visualstudio/xml-tools/xml-tools-in-visual-studio
+  - name: Extensibility
+    tocHref: /visualstudio/extensibility/
+    topicHref: /visualstudio/extensibility/index
+  - name: Container Tools
+    tocHref: /visualstudio/containers/
+    topicHref: /visualstudio/containers/index
+  - name: Azure Development
+    tocHref: /visualstudio/azure/
+    topicHref: /visualstudio/azure/index
+  - name: SharePoint
+    tocHref: /visualstudio/sharepoint/
+    topicHref: /visualstudio/sharepoint/create-sharepoint-solutions
+  - name: VSTO
+    tocHref: /visualstudio/vsto/
+    topicHref: /visualstudio/vsto/create-vsto-add-ins-for-office-by-using-visual-studio
+  - name: JavaScript and TypeScript
+    tocHref: /visualstudio/javascript/
+    topicHref: /visualstudio/javascript/index
+  - name: Python
+    tocHref: /visualstudio/python/
+    topicHref: /visualstudio/python/index
+  - name: Version Control
+    tocHref: /visualstudio/version-control
+    topicHref: /visualstudio/version-control/index
+- name: MSBuild
+  tocHref: /visualstudio/msbuild/
+  topicHref: /visualstudio/msbuild/msbuild
