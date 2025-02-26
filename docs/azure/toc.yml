@@ -1,0 +1,88 @@
+items:
+- name: Develop applications for Azure with Visual Studio
+  href: index.yml
+  expanded: true
+- name: Overview
+  expanded: true
+  items:
+  - name: About Azure development in Visual Studio
+    href: overview.md
+  - name: About developing ASP.NET web apps for Azure in Visual Studio
+    href: overview-aspnet-azure-development.md
+  - name: What are Connected Services?
+    href: overview-connected-services.md
+- name: Connect to Azure services
+  expanded: true
+  items:
+  - name: Find and provision Azure resources
+    href: overview-azure-integration.md
+  - name: Microsoft Entra ID
+    href: vs-active-directory-add-connected-service.md
+  - name: App Insights
+    href: azure-app-insights-add-connected-service.md
+  - name: Azure Cache for Redis
+    href: azure-cache-for-redis-add-connected-service.md
+  - name: Azure Cosmos DB
+    href: azure-cosmosdb-add-connected-service.md
+  - name: Key Vault
+    href: vs-key-vault-add-connected-service.md
+  - name: SignalR
+    href: azure-signalr-add-connected-service.md
+  - name: SQL Database
+    href: azure-sql-database-add-connected-service.md
+  - name: Storage
+    href: vs-azure-tools-connected-services-storage.md
+  - name: App Configuration
+    href: vs-azure-tools-connected-services-app-configuration.md
+- name: Deploy to Azure
+  expanded: false
+  items:
+  - name: ASP.NET web app
+    href: deploy-aspnet-web-app-to-azure.md
+  - name: Get a publish profile from Azure App Service
+    href: how-to-get-publish-profile-from-azure-app-service.md
+  - name: Continuous integration with GitHub Actions
+    items:
+    - name: Continuous integration with GitHub Actions
+      href: overview-github-actions.md
+    - name: Deploy to Azure using GitHub Actions
+      href: azure-deployment-using-github-actions.md
+    - name: Deploy an ASP.NET Core app with Entity Framework to Azure with GitHub Actions
+      href: end-to-end-deployment-entity-framework-core-github-actions.md
+- name: Sign in with your Azure subscription
+  href: how-to-sign-in-with-azure-subscription.md
+- name: Extended support for Azure Cloud Services
+  expanded: false
+  items:
+  - name: Use Azure Cloud Services (extended support)
+    href: cloud-services-extended-support.md
+  - name: Create a project
+    href: vs-azure-tools-azure-project-create.md
+  - name: Manage roles
+    href: vs-azure-tools-cloud-service-project-managing-roles.md
+  - name: Build from the command line
+    href: vs-azure-tools-command-line-build.md
+  - name: Configure roles
+    href: vs-azure-tools-configure-roles-for-cloud-service.md
+  - name: Configure a project
+    href: vs-azure-tools-configuring-an-azure-project.md
+  - name: Use multiple service configurations
+    href: vs-azure-tools-multiple-services-project-configurations.md
+  - name: Debug in Visual Studio
+    href: vs-azure-tools-debug-cloud-services-virtual-machines.md
+  - name: Set up diagnostics
+    href: vs-azure-tools-diagnostics-for-cloud-services-and-virtual-machines.md
+  - name: Use Emulator Express to debug locally
+    href: vs-azure-tools-emulator-express-debug-run.md
+  - name: Deploy to Azure
+    href: vs-azure-tools-publishing-a-cloud-service.md
+  - name: Manage service configurations and profiles
+    href: vs-azure-tools-service-configurations-and-profiles-how-to-manage.md
+  - name: Browse and manage storage resources using Server Explorer
+    href: vs-azure-tools-storage-resources-server-explorer-browse-manage.md
+  - name: Construct filter strings in the table designer
+    href: vs-azure-tools-table-designer-construct-filter-strings.md
+  - name: Access Azure virtual machines from Server Explorer
+    href: vs-azure-tools-virtual-machines-access-from-server-explorer.md
+
+
