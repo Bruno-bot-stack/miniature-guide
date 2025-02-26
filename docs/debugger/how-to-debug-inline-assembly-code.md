@@ -1,0 +1,38 @@
+---
+title: Debug Inline Assembly Code
+description: When you debug inline assembly code, use the Disassembly window to see the assembly instructions, and use the Registers window to view the register values.
+ms.date: 11/04/2016
+ms.topic: how-to
+f1_keywords: 
+  - vs.debug.inline
+dev_langs: 
+  - CSharp
+  - VB
+  - FSharp
+  - C++
+helpviewer_keywords: 
+  - assembly language, debugging inline assembly code
+  - debugging [C++], inline assembly code
+  - inline assembly, debugging
+author: mikejo5000
+ms.author: mikejo
+manager: mijacobs
+ms.subservice: debug-diagnostics
+---
+# Debug Inline Assembly Code
+
+> [!NOTE]
+> The dialog boxes and menu commands you see might differ from those described in Help, depending on your active settings or edition. To change your settings, choose **Import and Export Settings** on the **Tools** menu. For more information, see [Reset all settings](../ide/personalizing-the-visual-studio-ide.md#reset-all-settings).
+
+The debugger provides two windows for debugging inline assembly code, the **Disassembly** window and the **Registers** window.
+
+## Debug inline assembly code
+
+1. Use the **Disassembly** window to view the assembly instructions.
+
+2. Use the **Registers** window to view register contents.
+
+## Related content
+
+- [Debugger Security](../debugger/debugger-security.md)
+- [Debugging Native Code](../debugger/debugging-native-code.md)
