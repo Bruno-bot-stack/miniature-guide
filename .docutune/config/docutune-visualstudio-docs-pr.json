@@ -1,0 +1,10 @@
+{
+  "BaseConfiguration": "docutune-default.json",
+  "Docsets": [
+    {
+      "DocsetName": "docs",
+      "BasePath": "/visualstudio"
+    }
+  ],
+  "MetadataMultilineValues": true
+}
