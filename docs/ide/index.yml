@@ -1,0 +1,117 @@
+### YamlMime:Landing
+
+title: Visual Studio IDE documentation
+summary: An integrated development environment (IDE) is a feature-rich application that can be used for many aspects of software development. The Visual Studio IDE makes it easy to edit, debug, build, and publish your app.
+
+metadata:
+  title: Visual Studio IDE documentation
+  titleSuffix: ""
+  description: Explore documentation about the features of the Visual Studio integrated development environment (IDE) that make it easy to edit, debug, build, and publish your app.
+  
+  ms.subservice: general-ide
+  ms.topic: landing-page
+  author: ghogen
+  ms.author: ghogen
+  ms.manager: mijacobs
+  ms.date: 06/20/2024
+  ms.custom: vs-acquisition
+
+# linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+# Cards and links should be based on top customer tasks or top subjects
+# Start card title with a verb
+
+landingContent:
+  # Card
+  - title: Get started
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: What is Visual Studio?
+            url: ../get-started/visual-studio-ide.md
+      - linkListType: download
+        links:
+          - text: Download Visual Studio
+            url: https://visualstudio.microsoft.com/downloads/?cid=learn-onpage-download-cta/?utm_medium=microsoft&utm_source=learn.microsoft.com&utm_campaign=navigation+cta&utm_content=download+vs2019
+      - linkListType: get-started
+        links:
+          - text: Install Visual Studio
+            url: ../install/install-visual-studio.md
+
+  # Card
+  - title: Use Visual Studio
+    linkLists:
+      - linkListType: get-started
+        links:
+          - text: Start in the code editor
+            url: ../get-started/tutorial-editor.md
+      - linkListType: overview
+        links:
+          - text: Track versions with Git
+            url: ../version-control/git-with-visual-studio.md
+      - linkListType: how-to-guide
+        links:
+          - text: Personalize the IDE
+            url: ../ide/personalizing-the-visual-studio-ide.md
+          - text: Create a new project
+            url: create-new-project.md
+          - text: Search code and features
+            url: visual-studio-search.md
+          - text: Compile and build
+            url: ../ide/compiling-and-building-in-visual-studio.md
+          - text: Run a program
+            url: ../get-started/csharp/run-program.md
+          - text: Productivity features
+            url: ../ide/productivity-features.md
+          - text: Open a developer command prompt
+            url: reference/command-prompt-powershell.md
+          - text: Manage extensions
+            url: finding-and-using-visual-studio-extensions.md
+
+  # Card
+  - title: Develop in your language
+    linkLists:
+      - linkListType: tutorial
+        links:
+          - text: C#
+            url: ../get-started/csharp/tutorial-console.md
+          - text: C++
+            url: /cpp/get-started/tutorial-console-cpp
+          - text: Visual Basic
+            url: ../get-started/visual-basic/tutorial-console.md
+          - text: Python
+            url: ../python/tutorial-working-with-python-in-visual-studio-step-00-installation.md
+          - text: JavaScript
+            url: ../javascript/tutorial-nodejs.md
+          - text: F#
+            url: /dotnet/fsharp/get-started/get-started-visual-studio
+
+  # Card
+  - title: Use AI in Visual Studio
+    linkLists:
+      - linkListType: overview
+        links:
+          - text: AI-assisted development in Visual Studio
+            url: ../ide/ai-assisted-development-visual-studio.md
+      - linkListType: how-to-guide
+        links:
+          - text: Use GitHub Copilot
+            url: ../ide/visual-studio-github-copilot-extension.md
+          - text: Use GitHub Copilot Chat 
+            url: ../ide/visual-studio-github-copilot-chat.md
+          - text: Debug with Copilot
+            url: ../debugger/debug-with-copilot.md
+
+  # Card
+  - title: Discover what's new
+    linkLists:
+      - linkListType: whats-new
+        links:
+          - text: Release notes
+            url: /visualstudio/releases/2022/release-notes
+          - text: What's new in Visual Studio 2022
+            url: ../ide/whats-new-visual-studio-2022.md
+          - text: What's new in Visual Studio 2019
+            url: ../ide/whats-new-visual-studio-2019.md
+          - text: What's new in the docs
+            url: ../ide/whats-new-visual-studio-docs.md
